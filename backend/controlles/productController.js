@@ -25,3 +25,17 @@ exports.getProducts = async (req, res, next) => {
     res.status(500).json({ success: false, message: error.message });
   }
 };
+
+//Controller to get single product => /api/v1/products/:id
+
+exports.getSingleProducts = async (req, res, next) => {
+  try {
+    const products = await Product.findById(req.params.id);
+    if (!products) {
+      res.status(404).json({ success: false, message: "Product not find" });
+    }
+    res.status(200).json({ success: true, products });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "description": "Industry-leading noise cancelling wireless headphones by Sony.",
+    "price": 29999,
+    "ratings": 4.7,
+    "category": "Headphones",
+    "image": [
+      {
+        "public_id": "sony_wh_1000xm5",
+        "url": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+      }
+    ],
+    "seller": "Sony Official Store",
+    "stock": 80,
+    "numOfReviews": 2,
+    "reviews": [
+      {
+        "name": "Rahul",
+        "rating": 5,
+        "comment": "Best noise cancellation ever"
+      },
+      { "name": "Anita", "rating": 4, "comment": "Premium sound quality" }
+    ]
+  },
+  {
+    "name": "Apple MacBook Air M2",
+    "description": "Apple MacBook Air with M2 chip, 13.6-inch display.",
+    "price": 114900,
+    "ratings": 4.8,
+    "category": "Laptops",
+    "image": [
+      {
+        "public_id": "macbook_air_m2",
+        "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-m2-midnight-gallery-1-20220606"
+      }
+    ],
+    "seller": "Apple Store",
+    "stock": 35,
+    "numOfReviews": 1,
+    "reviews": [
+      { "name": "Amit", "rating": 5, "comment": "Super fast and lightweight" }
+    ]
+  },
+  {
+    "name": "Nikon D3500 DSLR Camera",
+    "description": "24.2MP DSLR camera with AF-P 18-55mm lens.",
+    "price": 38999,
+    "ratings": 4.5,
+    "category": "Cameras",
+    "image": [
+      {
+        "public_id": "nikon_d3500",
+        "url": "https://cdn.mos.cms.futurecdn.net/3Z4wZ3oPZxC25fRT5tZ342.jpg"
+      }
+    ],
+    "seller": "Nikon India",
+    "stock": 42,
+    "numOfReviews": 1,
+    "reviews": [
+      { "name": "Suresh", "rating": 4, "comment": "Perfect for beginners" }
+    ]
+  },
+  {
+    "name": "Apple iPhone 15",
+    "description": "Apple iPhone 15 with A16 Bionic chip and advanced camera system.",
+    "price": 79900,
+    "ratings": 4.6,
+    "category": "Electronics",
+    "image": [
+      {
+        "public_id": "iphone_15",
+        "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-model-unselect-gallery-1-202309"
+      }
+    ],
+    "seller": "Apple Authorized Seller",
+    "stock": 150,
+    "numOfReviews": 2,
+    "reviews": [
+      { "name": "Neha", "rating": 5, "comment": "Camera is stunning" },
+      { "name": "Rohit", "rating": 4, "comment": "Smooth performance" }
+    ]
+  },
+  {
+    "name": "Nike Revolution 6 Running Shoes",
+    "description": "Comfortable and breathable running shoes by Nike.",
+    "price": 3695,
+    "ratings": 4.3,
+    "category": "Clothes/Shoes",
+    "image": [
+      {
+        "public_id": "nike_revolution_6",
+        "url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/6b1d1f5e-3c7b-4b4c-a6c2-13ef6f1a1f52/revolution-6-running-shoes.png"
+      }
+    ],
+    "seller": "Nike Store",
+    "stock": 120,
+    "numOfReviews": 1,
+    "reviews": [
+      {
+        "name": "Karan",
+        "rating": 4,
+        "comment": "Very comfortable for jogging"
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Protein Bar",
+    "description": "High protein nutrition bar for fitness enthusiasts.",
+    "price": 499,
+    "ratings": 4.1,
+    "category": "Food",
+    "image": [
+      {
+        "public_id": "muscleblaze_bar",
+        "url": "https://img6.hkrtcdn.com/12147/prd_1214695-MuscleBlaze-Protein-Bar.jpg"
+      }
+    ],
+    "seller": "HealthKart",
+    "stock": 500,
+    "numOfReviews": 1,
+    "reviews": [
+      { "name": "Pooja", "rating": 4, "comment": "Healthy and filling" }
+    ]
+  },
+  {
+    "name": "Eloquent JavaScript Book",
+    "description": "A modern introduction to JavaScript programming.",
+    "price": 899,
+    "ratings": 4.8,
+    "category": "Books",
+    "image": [
+      {
+        "public_id": "eloquent_js",
+        "url": "https://eloquentjavascript.net/img/cover.jpg"
+      }
+    ],
+    "seller": "No Starch Press",
+    "stock": 70,
+    "numOfReviews": 1,
+    "reviews": [
+      { "name": "Deepak", "rating": 5, "comment": "Best JS book ever" }
+    ]
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "description": "Advanced smartwatch with health and fitness tracking.",
+    "price": 41900,
+    "ratings": 4.6,
+    "category": "Accessories",
+    "image": [
+      {
+        "public_id": "apple_watch_series_9",
+        "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-s9-aluminum-midnight"
+      }
+    ],
+    "seller": "Apple Store",
+    "stock": 65,
+    "numOfReviews": 1,
+    "reviews": [
+      { "name": "Sneha", "rating": 4, "comment": "Very accurate tracking" }
+    ]
+  },
+  {
+    "name": "Mamaearth Skin Care Kit",
+    "description": "Natural skincare products free from toxins.",
+    "price": 2499,
+    "ratings": 4.2,
+    "category": "Beauty/Health",
+    "image": [
+      {
+        "public_id": "mamaearth_kit",
+        "url": "https://images.mamaearth.in/catalog/product/c/o/combokit.jpg"
+      }
+    ],
+    "seller": "Mamaearth",
+    "stock": 55,
+    "numOfReviews": 1,
+    "reviews": [
+      { "name": "Meera", "rating": 4, "comment": "Good for daily use" }
+    ]
+  },
+  {
+    "name": "Decathlon Quechua Camping Tent",
+    "description": "Waterproof 4-person camping tent for outdoor adventures.",
+    "price": 7999,
+    "ratings": 4.5,
+    "category": "Outdoor",
+    "image": [
+      {
+        "public_id": "quechua_tent",
+        "url": "https://contents.mediadecathlon.com/p1784446/k$2f4b5e0e4b4e4c0b5f6bffae4e51fca0/4-person-camping-tent.jpg"
+      }
+    ],
+    "seller": "Decathlon",
+    "stock": 28,
+    "numOfReviews": 1,
+    "reviews": [
+      { "name": "Vikas", "rating": 5, "comment": "Excellent build quality" }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 const Product = require("../models/product");
 
-//creating new product => /api/v1/products/new
+//creating new product => /api/v1/admin/products/new
 
 exports.newProduct = async (req, res, next) => {
   try {
@@ -34,6 +34,27 @@ exports.getSingleProducts = async (req, res, next) => {
     if (!products) {
       res.status(404).json({ success: false, message: "Product not find" });
     }
+    res.status(200).json({ success: true, products });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+//update product => /api/v1/admin/products/:id
+
+exports.updateProducts = async (req, res, next) => {
+  try {
+    let products = await Product.findById(req.params.id);
+    if (!products) {
+      return res
+        .status(404)
+        .json({ success: false, message: "Product not find" });
+    }
+    products = await Product.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+      runValidators: true,
+      useFindAndModify: false,
+    });
     res.status(200).json({ success: true, products });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });

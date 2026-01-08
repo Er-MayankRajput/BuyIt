@@ -60,3 +60,20 @@ exports.updateProducts = async (req, res, next) => {
     res.status(500).json({ success: false, message: error.message });
   }
 };
+
+//delete product = /api/v1/admin/products/:id
+
+exports.deleteProducts = async (req, res, next) => {
+  try {
+    let products = await Product.findById(req.params.id);
+    if (!products) {
+      return res
+        .status(404)
+        .json({ success: false, message: "Product not find" });
+    }
+    await products.deleteOne();
+    res.status(200).json({ success: true, message: "Deleted " });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
